@@ -1,0 +1,207 @@
+.h-500 {
+  height: calc(100vh - 58px);
+}
+.top-85 {
+  top: 85px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.text-justify {
+  text-align: justify
+}
+.form-control.is-invalid {
+  border-color: #dc3545 !important;
+}
+// overflow
+.overflow-style{
+  &::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+  }
+  &::-webkit-scrollbar{
+    width: 5px;
+    background-color: #F5F5F5;
+  }
+  &::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgb(255, 223, 101);
+    background-color: rgba(255, 223, 101, 0.5);
+  }
+}
+
+// letter
+$ls-spacer: 16px;
+$ls-spacers: (
+  0: 0,
+  1: $ls-spacer / 16,
+  2: $ls-spacer / 4,
+  3: $ls-spacer,
+  4: $ls-spacer * 1.5,
+  5: $ls-spacer * 2,
+);
+.ls {
+  @each $i, $val in $ls-spacers {
+    &-#{$i} {
+      letter-spacing: $val
+    }
+  }
+}
+// text
+.text-dark-2 {
+  color: #494846 !important;
+}
+.text-dark-3 {
+  color: #373A3C !important;
+}
+.text-secondary-2 {
+  color: #636057 !important;
+}
+.text-secondary-3 {
+  color: #858377 !important;
+}
+
+// background
+.bg-secondary-20{
+  background-color: #FEFEFE !important;
+}
+.bg-secondary-30{
+  background-color: #F8F9FA !important;
+}
+.bg-secondary-50 {
+  background-color: #E8E8DB !important;
+}
+.bg-secondary-100 {
+  background-color: #858377 !important;
+}
+// nav-link
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffc107;
+}
+// icon
+.icon-hw {
+  width: 30px;
+  height: 30px;
+}
+
+// btn
+.btn-yellow {
+  color: #636057;
+  &:hover{
+    color: #fff;
+    background-color: #FF785E;
+    border-color: #FF785E;
+  }
+  &:disabled, &.disabled{
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+}
+
+.btn-outline-secondary {
+  &:hover{
+    color: #6c757d;
+    background-color: #FFDF65;
+    border-color: #FFDF65;
+    .custom-heart{
+      color:#FF785E
+    }
+  }
+}
+
+// accordion
+.accordion-item{
+  border-radius: 8px;
+  position: relative;
+  .accordion-collapse{
+    border-left: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  &.active{
+    box-shadow: 0 0 8px 0 rgba(73,72,70,0.15);
+  }
+}
+.accordion-item:first-of-type, 
+.accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.accordion-item, .accordion-item:not(:first-of-type){
+  border: 0px;
+}
+.accordion-button{
+  border: 1px solid #E5E5E5;
+  border-radius: 8px;
+  &:focus{
+    border-color: #00000000;
+    box-shadow: 0 0 0 0.05rem #a0a3a940;
+  }
+  &:not(.collapsed) {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
+.accordion-button:not(.collapsed){
+  background: $white;
+  border-color: #E5E5E5;
+  box-shadow: 0 0 0;
+}
+
+// rounded
+$radius-num: 1rem;
+
+$border-radius: (
+  "1": $radius-num * .2,
+  "2": $radius-num * .25,
+  "3": $radius-num * .375,
+  "4": $radius-num * .875,
+  "md": $radius-num * 2,
+);
+
+.rounded {
+  @each $i, $val in $border-radius {
+    &-#{$i} {
+      border-radius: $val !important;
+    }
+  }
+}
+.overflow-style{
+  position: sticky !important;
+  height: calc(100vh - 58px);
+  overflow: auto !important;
+  top: 85px;
+}
+.img-box{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+// img
+.img1{
+  background-image: url('https://hexschool.github.io/boootstrap5WebLayout/assets/news01.jpg')
+}
+.img2{
+  background-image: url('https://hexschool.github.io/boootstrap5WebLayout/assets/news02.jpg')
+}
+.img3{
+  background-image: url('https://hexschool.github.io/boootstrap5WebLayout/assets/news03.jpg')
+}
+@media (max-width: 992px) {
+  .overflow-style{
+    overflow: initial;
+    position: initial;
+    height: auto;
+    top: auto;
+  }
+}
