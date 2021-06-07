@@ -1,10 +1,4 @@
-.h-500 {
-  height: calc(100vh - 58px);
-}
-.top-85 {
-  top: 85px;
-}
-.fs-14{
+.fs-sm{
   font-size: 14px;
 }
 .text-justify {
@@ -17,11 +11,11 @@
 $ls-spacer: 16px;
 $ls-spacers: (
   0: 0,
-  1: $ls-spacer / 16,
-  2: $ls-spacer / 4,
-  3: $ls-spacer,
-  4: $ls-spacer * 1.5,
-  5: $ls-spacer * 2,
+  'xs': $ls-spacer / 16,
+  'sm': $ls-spacer / 4,
+  'md': $ls-spacer,
+  'lg': $ls-spacer * 1.5,
+  'xl': $ls-spacer * 2,
 );
 .ls {
   @each $i, $val in $ls-spacers {
@@ -31,29 +25,29 @@ $ls-spacers: (
   }
 }
 // text-color
-.text-dark-2 {
+.text-dark-700 {
   color: #494846 !important;
 }
-.text-dark-3 {
+.text-dark-900 {
   color: #373A3C !important;
 }
-.text-secondary-2 {
-  color: #636057 !important;
-}
-.text-secondary-3 {
+.text-secondary-400 {
   color: #858377 !important;
 }
+.text-secondary-600 {
+  color: #636057 !important;
+}
 // background
-.bg-secondary-20{
+.bg-secondary-100{
   background-color: #FEFEFE !important;
 }
-.bg-secondary-30{
+.bg-secondary-200{
   background-color: #F8F9FA !important;
 }
-.bg-secondary-50 {
+.bg-secondary-400 {
   background-color: #E8E8DB !important;
 }
-.bg-secondary-100 {
+.bg-secondary-800 {
   background-color: #858377 !important;
 }
 // nav-link
@@ -151,6 +145,10 @@ $border-radius: (
   }
 }
 // img
+.logo-img{
+  width: 111px;
+  height: 40px;
+}
 .img-box{
   width: 100%;
   height: 100%;
@@ -158,13 +156,13 @@ $border-radius: (
   background-position: center;
   background-repeat: no-repeat;
 }
-.img1{
+.news_img1{
   background-image: url('https://hexschool.github.io/boootstrap5WebLayout/assets/news01.jpg')
 }
-.img2{
+.news_img2{
   background-image: url('https://hexschool.github.io/boootstrap5WebLayout/assets/news02.jpg')
 }
-.img3{
+.news_img3{
   background-image: url('https://hexschool.github.io/boootstrap5WebLayout/assets/news03.jpg')
 }
 // overflow

@@ -17,7 +17,7 @@
       <div class="mb-3">
         <label
           for="project"
-          class="form-label text-dark-3">贊助方案</label>
+          class="form-label text-dark-900">贊助方案</label>
         <select
           class="form-select border-light bg-light text-muted"
           id="project" aria-label="select project">
@@ -30,7 +30,7 @@
       <div class="mb-3">
         <label
           for="name"
-          class="form-label text-dark-3">收件人姓名</label>
+          class="form-label text-dark-900">收件人姓名</label>
         <input
           type="text"
           class="form-control border-light bg-light" id="name" />
@@ -38,7 +38,7 @@
       <div class="mb-3">
         <label
           for="address"
-          class="form-label text-dark-3">收件地址</label>
+          class="form-label text-dark-900">收件地址</label>
         <input
           type="text"
           class="form-control border-light bg-light"
@@ -47,7 +47,7 @@
       <div class="mb-3">
         <label
           for="phone"
-          class="form-label text-dark-3">聯絡電話</label>
+          class="form-label text-dark-900">聯絡電話</label>
         <input
           type="text"
           class="form-control border-light bg-light"
@@ -56,7 +56,7 @@
       <div class="mb-3">
         <label
           for="email"
-          class="form-label text-dark-3">聯絡信箱</label>
+          class="form-label text-dark-900">聯絡信箱</label>
         <input
           type="email" 
           class="form-control border-light bg-light" 
@@ -71,7 +71,7 @@
       <div class="mb-4 mb-md-3">
         <label
           for="payment"
-          class="form-label text-dark-3">付款方式</label>
+          class="form-label text-dark-900">付款方式</label>
         <select
           id="payment"
           class="form-select border-light bg-light text-muted"

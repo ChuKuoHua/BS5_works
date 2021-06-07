@@ -1,10 +1,10 @@
 <template>
 <div>
-  <div class="accordion" id="accordionExample">
-    <div class="accordion-item ls-1 mb-3">
+  <ul class="accordion ps-0 mb-4" id="accordionExample">
+    <li class="accordion-item ls-xs mb-3">
       <h2 class="accordion-header" id="headingOne">
         <button
-          class="accordion-button collapsed ls-1 text-dark"
+          class="accordion-button collapsed ls-xs text-dark"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseOne"
@@ -21,15 +21,15 @@
         class="accordion-collapse collapse"
         aria-labelledby="headingOne"
         data-bs-parent="#accordionExample">
-        <div class="accordion-body lh-lg text-secondary-3">
+        <div class="accordion-body lh-lg text-secondary-400">
           可以進行簡易的編輯，內建 5 種濾鏡，影片秒數有3秒、5秒、10秒可以選擇，拍完的當下可以編輯要印出來的影片範圍哦！
         </div>
       </div>
-    </div>
-    <div class="accordion-item ls-1 mb-3">
+    </li>
+    <li class="accordion-item ls-xs mb-3">
       <h2 class="accordion-header" id="headingTwo">
         <button
-          class="accordion-button collapsed ls-1 text-dark"
+          class="accordion-button collapsed ls-xs text-dark"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseTwo"
@@ -45,17 +45,17 @@
         class="accordion-collapse collapse"
         aria-labelledby="headingTwo"
         data-bs-parent="#accordionExample">
-        <div class="accordion-body lh-lg text-secondary-3">
+        <div class="accordion-body lh-lg text-secondary-400">
           提供產品售後服務，對產品本體(不含配件、線材)提供二年保固服務。
           產品因意外或人為不當使用或未經授權維修等非依使用手冊使用而造成產品損壞者，
           則不在保固範圍之內，得向客戶酌收產品維修服務費用。
         </div>
       </div>
-    </div>
-    <div class="accordion-item ls-1 mb-3">
+    </li>
+    <li class="accordion-item ls-xs mb-3">
       <h2 class="accordion-header" id="headingThree">
         <button
-          class="accordion-button collapsed ls-1 text-dark"
+          class="accordion-button collapsed ls-xs text-dark"
           type="button" data-bs-toggle="collapse"
           data-bs-target="#collapseThree"
           aria-expanded="false"
@@ -70,16 +70,16 @@
         class="accordion-collapse collapse"
         aria-labelledby="headingThree"
         data-bs-parent="#accordionExample">
-        <div class="accordion-body lh-lg text-secondary-3">
+        <div class="accordion-body lh-lg text-secondary-400">
           本產品可以兼容 i-type 及 600
           相片，各大網路平台皆有販售。
         </div>
       </div>
-    </div>
-    <div class="accordion-item ls-1 mb-3">
+    </li>
+    <li class="accordion-item ls-xs mb-3">
       <h2 class="accordion-header" id="headingFour">
         <button
-          class="accordion-button collapsed ls-1 text-dark"
+          class="accordion-button collapsed ls-xs text-dark"
           type="button" data-bs-toggle="collapse"
           data-bs-target="#collapseFour"
           aria-expanded="false"
@@ -94,15 +94,15 @@
         class="accordion-collapse collapse"
         aria-labelledby="headingFour"
         data-bs-parent="#accordionExample">
-        <div class="accordion-body lh-lg text-secondary-3">
+        <div class="accordion-body lh-lg text-secondary-400">
           不用，取出後稍微搖晃，相片與空氣接觸數秒後便會產生圖像顏色。
         </div>
       </div>
-    </div>
-    <div class="accordion-item ls-1 mb-3">
+    </li>
+    <li class="accordion-item ls-xs mb-3">
       <h2 class="accordion-header" id="headingFive">
         <button
-          class="accordion-button collapsed ls-1 text-dark"
+          class="accordion-button collapsed ls-xs text-dark"
           type="button" data-bs-toggle="collapse"
           data-bs-target="#collapseFive"
           aria-expanded="false"
@@ -117,15 +117,15 @@
         class="accordion-collapse collapse"
         aria-labelledby="headingFive"
         data-bs-parent="#accordionExample">
-        <div class="accordion-body lh-lg text-secondary-3">
+        <div class="accordion-body lh-lg text-secondary-400">
           可以選擇超商取貨及宅配，付款方式有銀行轉帳及信用卡支付。
         </div>
       </div>
-    </div>
-    <div class="accordion-item ls-1 mb-3">
+    </li>
+    <li class="accordion-item ls-xs">
       <h2 class="accordion-header" id="headingSix">
         <button
-          class="accordion-button collapsed ls-1 text-dark"
+          class="accordion-button collapsed ls-xs text-dark"
           type="button" data-bs-toggle="collapse"
           data-bs-target="#collapseSix"
           aria-expanded="false"
@@ -140,13 +140,13 @@
         class="accordion-collapse collapse"
         aria-labelledby="headingSix"
         data-bs-parent="#accordionExample">
-        <div class="accordion-body lh-lg text-secondary-3">
+        <div class="accordion-body lh-lg text-secondary-400">
           因商品封條多為一次性包裝，商品退貨時必須回復原狀，亦即必須回復至您收到商品時的原始狀態，
           且會視回收的商品狀態另外酌收額外的整新費用，請您務必確認有購買需求後再行拆封，感謝您的配合。
         </div>
       </div>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>
 </template>
 

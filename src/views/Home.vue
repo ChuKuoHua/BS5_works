@@ -4,23 +4,23 @@
       <div class="bg-light">
         <div class="container">
           <div class="py-3 py-lg-5">
-            <span class="badge bg-secondary-100 mb-2 px-3">魔法科技</span>
+            <span class="badge bg-secondary-800 mb-2 px-3">魔法科技</span>
             <h1
-              class="h3 fw-bolder ls-2 mb-3 text-dark">
+              class="h3 fw-bolder ls-sm mb-3 text-dark">
               拍出會動的照片｜LivePhotos 魔法拍立得
             </h1>
             <div class="row">
-              <div class="col-12 col-lg-7">
+              <div class="col-lg-7">
                 <img
                   class="img-fluid rounded-md mb-3 mb-md-0"
                   src="https://hexschool.github.io/boootstrap5WebLayout/assets/produt_image.jpg" alt="image">
               </div>
-              <div class="col-12 col-lg-5">
-                <span class="text-secondary ls-1">
+              <div class="col-lg-5">
+                <span class="text-secondary ls-xs">
                   目標 $600,000
                 </span>
                 <h3
-                  class="fs-2 mt-2 mb-3 ls-1 fw-bold text-dark">
+                  class="fs-2 mt-2 mb-3 ls-xs fw-bold text-dark">
                   $280,047
                 </h3>
                 <div class="progress rounded-pill mb-4">
@@ -35,11 +35,11 @@
                 <div class="row">
                   <div class="col">
                     <span class="text-secondary">贊助人數</span>
-                    <p class="fs-3 fw-bold text-dark-2">1374 人</p>
+                    <p class="fs-3 fw-bold text-dark-700">1374 人</p>
                   </div>
                   <div class="col">
                     <span class="text-secondary">募資倒數</span>
-                    <p class="fs-3 fw-bold text-dark-2">27 天</p>
+                    <p class="fs-3 fw-bold text-dark-700">27 天</p>
                   </div>
                   <div class="col-12 mt-3">
                     <div class="row g-0 justify-content-between justify-content-md-start">
@@ -95,7 +95,7 @@
                   </div>
                   <div class="col-12">
                     <div class="border-start border-2 border-warning ps-2 py-2 my-lg-4 my-3 bg-white">
-                      <p class="mb-0 text-secondary-2 fw-bold">
+                      <p class="mb-0 text-secondary-600 fw-bold">
                         專案募資中！
                         <br>
                         在 2021/06/14 23:59 募資結束前，您都可以贊助此計畫。
@@ -196,7 +196,7 @@
     </nav>
     <div class="container my-5">
       <div class="row">
-        <div class="col-12 col-lg-8">
+        <div class="col-lg-8">
           <div class="tab-content" id="myTabContent">
             <div
               class="tab-pane fade show active"

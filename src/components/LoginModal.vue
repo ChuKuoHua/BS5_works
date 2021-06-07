@@ -3,7 +3,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title fw-bold">登入</h5>
+          <h4 class="modal-title fw-bold">登入</h4>
           <button 
             type="button" 
             class="btn-close"
